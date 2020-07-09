@@ -1,0 +1,102 @@
+* {
+        margin: none;
+    }
+    body {
+        background-color: #1C1F22;
+        font-family: monospace, sans-serif;
+        font-size: 24px;
+        margin: 0%;
+    }
+    div.section1 {
+        display: inline-block;
+        width: 40%;
+        font-family: sans-serif;
+        font-size: 40px;
+        color:#EBEBEB;
+        margin-bottom: 15%;
+        padding: 10%
+    }
+    div.section2 {
+        display: inline-block;
+        width: 39%;
+        overflow: auto;
+        align-items: center;
+    }
+    div.welcome {
+        display: inline-block;
+        width: 30%;
+        overflow: auto;
+        align-content: top;
+    }
+    div.welcome2 {
+        display: inline-block;
+        width: 40%;
+        padding: 10%;
+    }
+    div .wlc {
+        margin-bottom: 35%;
+    }
+    div.bodytext {
+        margin-bottom: 5%;
+        margin-left: 10%;
+    }
+    div.center {
+        margin-bottom: 10%;
+        margin-left: 50%;
+    }
+    div.center2 {
+        margin-bottom: 5%;
+        margin-left: 945px;
+    }
+    p, li, em {
+        color: #EBEBEB;
+    }
+    h2 {
+        color: #EB5A47;
+        font-family: sans-serif;
+    }
+    .links {
+        color: #EB5A47;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    .links:hover {
+        color: aqua;
+    }
+    .color {
+        font-weight: bold;
+        color:#EB5A47;
+    }
+    .color2:hover {
+        color: aqua;
+    }
+    .perfil {
+        border-radius: 100%;
+        background-color: rgb(70, 70, 70);
+        padding: 6px
+    }
+    .buttom {
+        border: 6px solid #EB5A47;
+        font-weight: bold;
+        text-decoration: none;
+        color: #EB5A47;
+        border-radius: 12px;
+        padding: 10px 15px;
+    }
+    .buttom:hover {
+        background-color: #EB5A47;
+        color: aqua;
+    }
+    h1:hover {
+        color: aqua;
+    }
+    .medias {
+        text-decoration: none;
+        color:aquamarine;
+    }
+    .pic {
+        border-radius: 100%;
+    }
+    .pic2 {
+        border-radius: 25%;
+    }
