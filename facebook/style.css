@@ -99,9 +99,28 @@ input{
 
 .slogan {
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 .login-label {
   color: rgb(233, 230, 230);
+}
+
+.name-div {
+  width: 49%;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.quick-easy {
+  padding-bottom: 10px;
+}
+
+.bttn-submit {
+  width: 50%;
 }
