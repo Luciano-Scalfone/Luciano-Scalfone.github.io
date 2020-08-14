@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.top-bar {
+  align-items: center;
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  justify-content: space-around;
+}
+
+.facebook-login {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding-top: 10px;
+  width: 30%
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  margin-top: 9px;
+  align-self: center;
+}
+
+.main-content {
+  background: linear-gradient(white, #d3d8e8);
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.left-content {
+  width: 30%;
+}
+
+.right-content {
+  margin-left: 130px;
+  width: 30%;
+}
+
+.display-block {
+  display: block;
+}
+
+.radio-display {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 0;
+}
+
+.register-form p {
+  display: inline-block;
+}
+
+.footer {
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
+  height: 150px;
+  padding: 40px;
+}
+
+.footer p {
+  font-style: italic;
+  margin-top: 20px;
+}
+
+input{
+  margin: 5px 5px 5px 0;
+}
+
+.label {
+  margin-right: 20px;
+}
+
+.btn {
+  color: #d3d8e8;
+  background-color: rgb(66, 103, 178);
+}
+
+.align {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.name-display {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.slogan {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.login-label {
+  color: rgb(233, 230, 230);
+}
