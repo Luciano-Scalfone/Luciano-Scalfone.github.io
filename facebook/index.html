@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  <title>Facebook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top-bar">
+    <img class="facebook-logo" src="imgs/facebook-logo.png" alt="">
+    <form class="facebook-login" action="" method="get">
+      <div class="form-group field">
+        <div class="login">
+          <label class="login-label" for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+          <div class="control">
+            <input type="text" id="user-email-phone">
+          </div>
+        </div>
+      </div>
+      <div class="form-group field">
+        <label class="login-label" for="" id="user-password-label">Senha</label>
+        <div class="control">
+          <input type="password" id="user-password">
+        </div>
+      </div>
+      <div class="form-control field">
+        <div class="control">
+          <button class="btn" id="button-login">Entrar</button>
+        </div>
+      </div>
+    </form>
+  </header>
+  <main class="main-content">
+    <div class="left-content">
+      <p class="slogan" id="facebook-slogan">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+      <img src="imgs/networking.png" alt="" id="facebook-networking">
+    </div>
+    <div class="right-content">
+      <h1>Abra uma conta</h1>
+      <p class="quick-easy">É rápido e fácil.</p>
+      <form class="register-form field" action="" method="get" id="register-form">
+        <div class="align">
+          <div class="control name-div">
+            <input class="name-display input is-small" required type="text" name="firstname" placeholder="Nome">
+          </div>
+          <div class="control name-div">
+            <input class="name-display input is-small" required type="text" name="lastname" placeholder="Sobrenome">
+          </div>
+        </div>
+        <div class="control">
+          <input class="input is-small" required type="text" name="phone_email" placeholder="Celular ou email">
+        </div>
+        <div class="control">
+          <input class="input is-small" required type="password" name="password" placeholder="Nova senha">
+        </div>
+        <label class="display-block" for="" id="label-birthdate">Data de nascimento</label>
+        <div class="control">
+          <input class="input is-small" required type="date" name="birthdate" placeholder="dd/mm/aaaa">
+        </div>
+        <label class="display-block" for="" id="label-gender">Gênero</label>
+        <div class="radio-display field">
+          <div class="control">
+            <input class="radio" required type="radio" name="gender" value="Feminino" id="feminino" title="Campo inválido">
+          </div>
+          <label class="label" for="feminino">Feminino</label>
+          <div class="control">
+            <input class="radio" type="radio" name="gender" value="Masculino" id="masculino">
+          </div>
+          <label class="label" for="masculino">Masculino</label>
+          <div class="control">
+            <input class="radio" type="radio" name="gender" value="Personalizado" id="personalizado">
+          </div>
+          <label class="label" for="personalizado">Personalizado</label>
+        </div>
+        <div class="control">
+          <button class="button is-success is-active bttn-submit" type="submit" id="facebook-register">Cadastre-se</button>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer class="footer"></footer>
+  <script src="script.js"></script>
+</body>
+</html>
